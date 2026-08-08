@@ -30,11 +30,17 @@ It also has default water intake reminder to keep you hydrated . (I include this
 # used languages
 
 HTML
+
 CSS
+
 JS
+
 CHROME STORAGE
+
 CHROME NOTIFICATION
+
 CHROME ALARAM
+
 CHROME EXTENSION MANIFEST V3
 
 # Project structure
