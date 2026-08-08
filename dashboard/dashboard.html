@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>chrome buddy Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+
+<body>
+
+
+<div class="container">
+<div class="stats">
+    <h1 style="width: max-content;"> chrome buddy Dashboard</h1>
+    <br>
+    <button id="reminderBtnOpen" style="width: fit-content; height: fit-content;"> Add Reminder</button>
+</div>
+    
+    <div class="stats">
+
+        <div class="card">
+            <h3>Today's Focus</h3>
+            <h2 id="totalTime">0s</h2>
+        </div>
+
+        <div class="card">
+            <h3>Websites</h3>
+            <h2 id="websiteCount">0</h2>
+        </div>
+
+        <div class="card">
+            <h3>Most Used</h3>
+            <h2 id="mostUsed">-</h2>
+        </div>
+       
+        <div class="card">
+            <h3>Yesterday</h3>
+            <h2 id="yesterdayTime">0s</h2>
+        </div>
+        <div class="card">
+            <h3>Last 7 Days</h3>
+            <h2 id="weekTime">0s</h2>
+        </div>
+    </div>
+
+    <div class="websites">
+
+        <h2>Top Websites</h2>
+
+        <div id="websiteList"></div>
+
+    </div>
+
+</div>
+
+
+ <section class="reminders" id="reminder-section" style="display: none;" >
+
+    <h2> Reminders</h2>
+
+    <div class="add-reminder">
+
+        <input
+            type="text"
+            id="taskTitle"
+            placeholder="Task title">
+
+        <input
+            type="date"
+            id="taskDate">
+
+        <input
+            type="time"
+            id="taskTime">
+
+        <button id="saveReminder">
+             Add Reminder
+        </button>
+
+    </div>
+
+    <div id="reminderList"></div>
+
+</section>
+<script src="dashboard.js"></script>
+
+</body>
+
+</html>

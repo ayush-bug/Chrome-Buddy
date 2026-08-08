@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "chrome buddy",
+  "version": "1.0.0",
+  "description": "Track your study time and website usage.",
+
+  "permissions": [
+    "storage",
+    "tabs",
+    "alarms",
+    "idle",
+    "notifications"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "action": {
+    "default_popup": "popup/popup.html"
+
+  }
+}

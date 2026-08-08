@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chrome buddy</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1> chrome buddy</h1>
+            <p>Your Study Companion</p>
+        </header>
+
+        <div class="card">
+            <h3>Today's Focus Time</h3>
+            <h2 id="totalTime">0h 00m</h2>
+        </div>
+
+        <div class="card">
+            <div class="title-row">
+                <h3>Top Websites</h3>
+            </div>
+
+            <div id="websiteList">
+
+                <div class="website">
+                    <span>chatgpt.com</span>
+                    <strong>0m</strong>
+                </div>
+
+                <div class="website">
+                    <span>youtube.com</span>
+                    <strong>0m</strong>
+                </div>
+
+                <div class="website">
+                    <span>github.com</span>
+                    <strong>0m</strong>
+                </div>
+
+            </div>
+        </div>
+
+        <button id="dashboardBtn">
+            Open Dashboard
+        </button>
+
+    </div>
+
+    <script src="popup.js"></script>
+   
+</body>
+</html>
